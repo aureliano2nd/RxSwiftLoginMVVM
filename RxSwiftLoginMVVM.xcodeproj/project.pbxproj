@@ -13,6 +13,7 @@
 		936C188B2092679F0021705D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936C18892092679F0021705D /* Main.storyboard */; };
 		936C188D209267A00021705D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936C188C209267A00021705D /* Assets.xcassets */; };
 		936C1890209267A00021705D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936C188E209267A00021705D /* LaunchScreen.storyboard */; };
+		936C189C2092747A0021705D /* ColorAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936C189B2092747A0021705D /* ColorAsset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		936C188C209267A00021705D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		936C188F209267A00021705D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		936C1891209267A00021705D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936C189B2092747A0021705D /* ColorAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorAsset.swift; sourceTree = "<group>"; };
 		942960E071A631F322BF75C7 /* Pods-RxSwiftLoginMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLoginMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLoginMVVM/Pods-RxSwiftLoginMVVM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 		936C18842092679F0021705D /* RxSwiftLoginMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				936C189B2092747A0021705D /* ColorAsset.swift */,
 				936C18852092679F0021705D /* AppDelegate.swift */,
 				936C18872092679F0021705D /* ViewController.swift */,
 				936C18892092679F0021705D /* Main.storyboard */,
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				936C18882092679F0021705D /* ViewController.swift in Sources */,
+				936C189C2092747A0021705D /* ColorAsset.swift in Sources */,
 				936C18862092679F0021705D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +355,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2P7FWSF8B;
 				INFOPLIST_FILE = RxSwiftLoginMVVM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lp.iem.RxSwiftLoginMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -367,7 +374,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2P7FWSF8B;
 				INFOPLIST_FILE = RxSwiftLoginMVVM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lp.iem.RxSwiftLoginMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
